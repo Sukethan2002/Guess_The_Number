@@ -15,7 +15,7 @@ def guess_game():
         guess = int(request.form["guess"])
         tries += 1
         if guess == number_to_guess:
-            message = f"🎉 Correct! You guessed it in {tries} tries."
+            message = f"🎉😍 Correct! You guessed it in {tries} tries."
             number_to_guess = random.randint(1, 10)
             tries = 0
         elif guess < number_to_guess:
